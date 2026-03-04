@@ -1,13 +1,13 @@
 # Python 3.9 is recommended
 # For GPU support, install PyTorch with CUDA from https://pytorch.org/get-started/previous-versions/
-# e.g.: pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 --extra-index-url https://download.pytorch.org/whl/cu116
+# e.g.: pip install torch==2.6.0+cu118 torchvision==0.21.0+cu118 --extra-index-url https://download.pytorch.org/whl/cu118
 
-torch==1.13.1
-torchvision==0.14.1
+torch==2.6.0
+torchvision==0.21.0
 numpy==1.23.5
 scipy==1.9.3
 matplotlib==3.6.2
-opencv-python==4.7.0.72
+opencv-python==4.8.1.78
 scikit-image==0.19.3
 pytorch-msssim==0.2.1
 thop==0.1.1.post2209072238
